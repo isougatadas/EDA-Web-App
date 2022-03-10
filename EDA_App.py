@@ -32,7 +32,7 @@ The **EDA Web App** is created in Streamlit using the **pandas-profiling** libra
 with st.sidebar.header('Upload your CSV data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input file here", type=["csv"])
     st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv)
+[Example CSV input file](https://raw.githubusercontent.com/isougatadas/EDA-Web-App/main/delaney_solubility_with_descriptors.csv)
 """)
 
 # Pandas Profiling Report
