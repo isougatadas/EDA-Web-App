@@ -5,9 +5,9 @@ from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 
 st.set_page_config(page_title="EDA App", 
+page_icon="✏️", 
 layout="centered", 
-initial_sidebar_state="auto", 
-menu_items=None)
+initial_sidebar_state="auto")
 
 hide_st_style = """
             <style>
