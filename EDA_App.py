@@ -6,8 +6,7 @@ from streamlit_pandas_profiling import st_profile_report
 
 st.set_page_config(page_title="EDA App", 
 page_icon="✏️", 
-layout="centered", 
-menu_items=None)
+layout="centered")
 
 hide_st_style = """
             <style>
